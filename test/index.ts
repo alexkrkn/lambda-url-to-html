@@ -1,5 +1,5 @@
 import { describe, it, afterEach } from 'mocha';
-import { handler, Input, Output, storage } from '../index';
+import { handler, Output, storage } from '../index';
 import { stub, restore } from 'sinon';
 import { strictEqual } from 'assert';
 import axios from 'axios';
